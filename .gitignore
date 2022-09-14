@@ -1,0 +1,34 @@
+# Credentials
+.env
+
+# Airflow
+airflow/logs/
+airflow/webserver_config.py
+airflow/airflow-webserver.pid
+
+# Temporary
+temp/**/*.tsv
+/tests/
+
+# DBT
+dbt/target/
+dbt/dbt_modules/
+dbt/logs/
+dbt/.user.yml
+!dbt/tests/*
+
+# Log files
+*.log
+
+# Python
+__pycache__
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Mac OS-specific storage files
+.DS_Store
+
